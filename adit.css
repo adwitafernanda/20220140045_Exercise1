@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #979797;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+    text-align: center;
+    color: #060505;
+}
+
+.image {
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease; /* Menambahkan transisi */
+}
+
+.image:hover {
+    transform: scale(1.1); /* Memperbesar gambar saat cursor di atasnya */
+}
+
+.description {
+    text-align: justify;
+    color: #000000;
+}
+
+.link {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #000000;
+}
+
+.button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #45a049;
+}
+
+/* Gaya untuk elemen audio untuk latar belakang musik */
+audio {
+    display: none; /* Sembunyikan elemen audio */
+}
+
+/* Gaya untuk tombol */
+.music-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 9999; /* Pastikan tombol muncul di atas konten lain */
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px; /* Jarak dari atas */
+    margin-left: 20px; /* Jarak dari kiri */
+}
+
